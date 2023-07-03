@@ -1,7 +1,7 @@
 const Tweeter = function() {
     let posts = [
         {
-            text: "First post!",
+            text: "First post!",    
             id: "p1",
             comments: [
                 { id: "c1", text: "First comment on first post!" },
@@ -66,7 +66,7 @@ const Tweeter = function() {
 };
 
 
-
+/*
 const tweeter = Tweeter()
 
 tweeter.addPost("This is my own post!")
@@ -100,3 +100,4 @@ tweeter.removeComment("p2", "c6")
 console.log(tweeter.getPosts())
 //This comment should be removed:
 //{id: "c6", text: "Haha second place what a joke."}
+*/
